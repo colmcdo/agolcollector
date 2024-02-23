@@ -13,6 +13,11 @@
     <!--loading the modules-->
     <script>
         require([ "esri/Map", "esri/views/MapView" ], (Map, MapView) => {
+            //create the map
+            const map = new Map({
+            basemap: "satellite"
+            });
+
          });
         </script>
 
